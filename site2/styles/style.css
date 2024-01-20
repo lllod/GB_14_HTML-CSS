@@ -1,0 +1,138 @@
+/*Bold*/
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url("../fonts/font-gilroy/Gilroy-Bold.ttf");
+}
+
+/*Medium*/
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url("../fonts/font-gilroy/Gilroy-Medium.ttf");
+}
+
+/*SemiBold*/
+@font-face {
+    font-family: Gilroy-SemiBold;
+    src: url("../fonts/font-gilroy/Gilroy-Semibold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy-Medium, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+}
+
+.logo__img {
+    float: left;
+    padding: 40px 0 0 0;
+}
+
+.logo__text {
+    float: left;
+    padding: 45px 0 0 14px;
+}
+
+.logo__text_grow {
+    color: #000;
+    font-family: Gilroy-Bold, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.logo__text_be {
+    color: #F25822;
+    font-family: Gilroy-Bold, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.menu {
+    float: none;
+    padding: 51px 0 0 0;
+}
+
+.menu__home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.menu__other-link {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+main {
+    overflow: hidden;
+    /*white-space:nowrap;*/
+}
+
+.main__info_text {
+    /*float: left;*/
+    display:inline-block;
+}
+
+.info_text__title {
+    color: #000;
+    font-family: Gilroy-Bold, serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 150px;
+}
+
+.info_text__sub-title {
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn {
+    float: left;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.20);
+}
+
+.btn__text-in-btn {
+    color: #FFF;
+    font-family: Gilroy-Bold, serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 15px 36px 16px 35px;
+}
+
+.btn__text-out-btn {
+    float: none;
+    color: #AAA;
+    font-family: Gilroy-Bold, serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main__img {
+    /*float: right;*/
+    display:inline-block;
+}
+
+.brands-logo {
+    padding-top: 97px;
+}
