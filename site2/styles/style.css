@@ -1,26 +1,27 @@
-/*Bold*/
-@font-face {
-    font-family: Gilroy-Bold;
-    src: url("../fonts/font-gilroy/Gilroy-Bold.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+/*!*Bold*!*/
+/*@font-face {*/
+/*    font-family: Gilroy-Bold;*/
+/*    src: url("../fonts/font-gilroy/Gilroy-Bold.ttf");*/
+/*}*/
 
-/*Medium*/
-@font-face {
-    font-family: Gilroy-Medium;
-    src: url("../fonts/font-gilroy/Gilroy-Medium.ttf");
-}
+/*!*Medium*!*/
+/*@font-face {*/
+/*    font-family: Gilroy-Medium;*/
+/*    src: url("../fonts/font-gilroy/Gilroy-Medium.ttf");*/
+/*}*/
 
-/*SemiBold*/
-@font-face {
-    font-family: Gilroy-SemiBold;
-    src: url("../fonts/font-gilroy/Gilroy-Semibold.ttf");
-}
+/*!*SemiBold*!*/
+/*@font-face {*/
+/*    font-family: Gilroy-SemiBold;*/
+/*    src: url("../fonts/font-gilroy/Gilroy-Semibold.ttf");*/
+/*}*/
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Gilroy-Medium, serif;
+    font-family: 'Inter', serif;
 }
 
 body {
@@ -56,7 +57,7 @@ header {
 
 .logo__text_grow {
     color: #000;
-    font-family: Gilroy-Bold, serif;
+    font-family: 'Inter', serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -64,7 +65,7 @@ header {
 
 .logo__text_be {
     color: #F25822;
-    font-family: Gilroy-Bold, serif;
+    font-family: 'Inter', serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -78,7 +79,7 @@ header {
 
 .menu__home {
     color: #F25822;
-    font-family: Gilroy-SemiBold, serif;
+    font-family: 'Inter', serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -92,14 +93,18 @@ header {
 }
 
 main {
-    display: flex;
     margin-top: 89px;
-    max-width: 1130px;
+}
+
+.main__head_info {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1174px;
 }
 
 .info_text__title {
     color: #000;
-    font-family: Gilroy-Bold, serif;
+    font-family: 'Inter', serif;
     font-size: 33px;
     font-style: normal;
     font-weight: 400;
@@ -117,8 +122,7 @@ main {
 .info_text__btn {
     margin-top: 37px;
     display: flex;
-    justify-content: flex-start;
-    gap: 72px;
+    gap: 48px;
     align-items: center
 }
 
@@ -132,7 +136,7 @@ main {
 
 .btn__text-in-btn {
     color: #FFF;
-    font-family: Gilroy-Bold, serif;
+    font-family: 'Inter', serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -142,7 +146,7 @@ main {
 .btn__text-out-btn {
     float: none;
     color: #AAA;
-    font-family: Gilroy-Bold, serif;
+    font-family: 'Inter', serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -151,18 +155,171 @@ main {
 .main__img {
     width: 545px;
     height: 375px;
-    flex-shrink: 0;
-}
-
-footer {
-    padding-top: 259px;
-    display: flex;
-    justify-content: center;
 }
 
 .brands-logo {
+    padding-top: 200px;
     display: flex;
     flex-wrap: wrap;
     gap: 48px;
+    padding-bottom: 100px;
 }
 
+.main__second_info {
+    display: flex;
+}
+
+.second_info__title {
+    color: #000;
+    font-family: 'Inter', serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 100px;
+}
+
+.second-info__sub-title {
+    color: #888;
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 20px;
+}
+
+.second-info__btn {
+    padding-top: 32px;
+}
+
+.main__third_info {
+    display: flex;
+    gap: 61px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.third_info__block {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 40px 34px;
+}
+
+.third_info__block .title {
+    color: #000;
+    font-family: 'Inter', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.third_info__block .sub-title {
+    color: #666;
+    font-family: 'Inter', serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.third_info__block .read-more_link {
+    color: #000;
+    font-family: 'Inter', serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.third_info__block .block__text {
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+}
+
+.main__fourth_info {
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+}
+
+.fourth_info__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.fourth_info__text .title {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    width: 662px;
+    margin: 0 auto;
+}
+
+.fourth_info__text .sub-title {
+    color: #888;
+    text-align: center;
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 740px;
+    margin: 0 auto;
+}
+
+.fourth_info__blocks {
+    display: flex;
+    gap: 20px;
+}
+
+.fourth_info__blocks .blocks {
+    padding: 0 34px 34px 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourth_info__blocks .blocks .img {
+    margin-bottom: 32px;
+}
+
+.fourth_info__blocks .blocks .title {
+    padding-bottom: 16px;
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 310px;
+    margin: 0 auto;
+}
+
+.fourth_info__blocks .blocks .sub-title {
+    padding-bottom: 24px;
+    color: #666;
+    text-align: center;
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 310px;
+    margin: 0 auto;
+}
+
+.fourth_info__blocks .blocks .btn {
+    align-items: center;
+}
