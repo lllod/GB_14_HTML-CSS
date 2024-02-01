@@ -1,33 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-/*!*Bold*!*/
-/*@font-face {*/
-/*    font-family: Gilroy-Bold;*/
-/*    src: url("../fonts/font-gilroy/Gilroy-Bold.ttf");*/
-/*}*/
-
-/*!*Medium*!*/
-/*@font-face {*/
-/*    font-family: Gilroy-Medium;*/
-/*    src: url("../fonts/font-gilroy/Gilroy-Medium.ttf");*/
-/*}*/
-
-/*!*SemiBold*!*/
-/*@font-face {*/
-/*    font-family: Gilroy-SemiBold;*/
-/*    src: url("../fonts/font-gilroy/Gilroy-Semibold.ttf");*/
-/*}*/
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', serif;
-}
-
-body {
-    height: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 a {
@@ -39,6 +16,13 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 1174px;
+    margin: 0 auto;
+}
+
+main {
+    width: 1174px;
+    margin: 0 auto;
 }
 
 .logo {
@@ -60,7 +44,7 @@ header {
     font-family: 'Inter', serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .logo__text_be {
@@ -68,7 +52,7 @@ header {
     font-family: 'Inter', serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .menu {
@@ -82,14 +66,14 @@ header {
     font-family: 'Inter', serif;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .menu__other-link {
     color: #000;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 main {
@@ -161,7 +145,7 @@ main {
     padding-top: 200px;
     display: flex;
     flex-wrap: wrap;
-    gap: 48px;
+    justify-content: space-between;
     padding-bottom: 100px;
 }
 
@@ -197,8 +181,6 @@ main {
     gap: 61px;
     padding-top: 100px;
     padding-bottom: 100px;
-    width: 100%;
-    margin: 0 auto;
 }
 
 .third_info__block {
@@ -245,6 +227,9 @@ main {
     display: flex;
     gap: 48px;
     flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .fourth_info__text {
