@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;;
+}
+
+.main_head {
+    width: 100%;
+    height: 75px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_head .head_left_icons {
+    display: flex;
+    gap: 41px;
+    padding-left: 231px;
+    align-items: flex-end;
+}
+
+.main_head .search {
+    height: 26px;
+}
+
+.main_head .head_right_icons {
+    display: flex;
+    gap: 33px;
+    padding-right: 240px;
+    align-items: flex-end;
+}
+
+.top_banner {
+    width: 100%;
+    height: 764px;
+    background: rgb(241, 228, 230);
+    display: flex;
+}
+
+.top_banner .title {
+    display: flex;
+}
+
+.top_banner .title .rectangle {
+    width: 12px;
+    height: 92px;
+    background: rgb(241, 109, 127);
+}
+
+.top_banner .title .text .text_main {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.top_banner .title .text .text_black {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.top_banner .title .text .text_red {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(241, 109, 127);
+}
